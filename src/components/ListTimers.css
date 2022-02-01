@@ -1,0 +1,9 @@
+.ListTimers {
+  overflow: scroll;
+  max-height: 3500px;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}

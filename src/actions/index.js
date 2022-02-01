@@ -29,3 +29,11 @@ export const update = (deltaTime) => {
     payload: { deltaTime }
   }
 }
+
+export const DELETE_TIMER = "DELETE_TIMER"
+export const deleteTimer = (index) => {
+  return {
+    type: DELETE_TIMER,
+    payload: { index }
+  }
+}

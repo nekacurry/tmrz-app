@@ -8,16 +8,16 @@ export default function NewTimer() {
 	const dispatch = useDispatch()
 
 	return (
-		<div className='NewTimer'>
-			<input
-				type='text'
-				placeholder="New Timer Name"
-				name="name"
-				value={name}
-				onChange={(e) => setName(e.target.value)}/>
-			<button
-				onClick={() => dispatch(addTimer(name))}
-			>Save</button>
-		</div>
+      <div className='NewTimer'>
+        <input
+          type='text'
+          placeholder="New Timer Name"
+          name="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}/>
+        <button
+          onClick={() => dispatch(addTimer(name))}
+        >Add</button>
+      </div>
 	)
 }

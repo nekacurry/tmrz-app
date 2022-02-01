@@ -29,8 +29,8 @@ function App() {
     <Provider store={store}>
       <div className='App'>
         <h1>TMRZ</h1>
-        <NewTimer />
         <ListTimers />
+        <NewTimer />
       </div>
     </Provider>
   );

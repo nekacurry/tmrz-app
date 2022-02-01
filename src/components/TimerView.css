@@ -1,9 +1,10 @@
 .TimerView {
-	width: 320px;
+	width: 400px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: baseline;
+  margin-bottom: auto;
 }
 
 .TimerView > h1 {
@@ -17,7 +18,7 @@
 	flex: 1;
 }
 
-.TimerView > button {
+.ToggleButton{
 	padding: 0.25rem 0.5rem;
 	border-radius: 0.5rem;
 	border: 1px solid #000;
@@ -26,4 +27,13 @@
 	font-size: 1rem;
 	font-weight: bold;
 	width: 4rem;
+  cursor: pointer;
+}
+
+.DelButton {
+  margin-right: 10px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  color: rgb(204, 11, 11);
 }
